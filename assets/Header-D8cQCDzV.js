@@ -1,0 +1,1 @@
+import{b as n,j as e,L as s}from"./index-C10UmBVP.js";const o=()=>{const a=n();return e.jsx("header",{children:e.jsxs("nav",{children:[e.jsx(s,{to:"/",className:`nav-link ${a.pathname==="/"?"active":""}`,children:"Home"}),e.jsx(s,{to:"/movies",className:`nav-link ${a.pathname==="/movies"?"active":""}`,children:"Movies"})]})})};export{o as default};
