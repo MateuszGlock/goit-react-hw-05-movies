@@ -1,0 +1,190 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.header a {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Home styles */
+.home {
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  padding: 0;
+}
+
+.movie-item {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.movie-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.movie-link:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+/* Movies styles */
+.movie {
+  display: flex;
+}
+.moviesContainer {
+  padding: 20px;
+}
+
+.moviesContainer form {
+  margin-bottom: 20px;
+}
+
+.moviesContainer input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.moviesContainer button {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.movieList {
+}
+
+.movieItem {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.movieItem h3 {
+  font-size: 20px;
+}
+
+/* MovieDetails styles */
+
+.details {
+  margin-left: 30px;
+}
+.movieDetails {
+  display: flex;
+  padding: 20px;
+}
+
+.movieDetails img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.movieDetailsContent {
+  max-width: 800px;
+}
+
+.movieDetails h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.movieDetails p {
+  margin: 5px 0;
+}
+
+.movieDetailsGenres {
+  display: flex;
+  gap: 10px;
+}
+
+.movieDetailsGenres span {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.additional {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.additionalInfo a {
+  display: block;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Cast styles */
+.castList {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.castItem {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.castItem img {
+  margin-right: 10px;
+}
+
+.castItem p {
+  margin: 0;
+}
+.reviewList {
+  margin-left: 30px;
+}
+/*Header*/
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
